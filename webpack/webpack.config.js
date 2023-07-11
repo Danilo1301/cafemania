@@ -2,7 +2,7 @@ const path = require('path');
 var WebpackObfuscator = require('webpack-obfuscator');
 
 module.exports = {
-    entry: './src/cafemania/index.ts',
+    entry: './src/client/index.ts',
     plugins: [
         //new WebpackObfuscator({rotateStringArray: true, reservedStrings: [ '\s*' ]}, [])
     ],
